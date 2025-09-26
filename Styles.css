@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plasma95MateCokePikachu</title>
+  <meta name="description" content="Plasma95MateCokePikachu – Trashy 90s Meme-Token launching on Plasma chain. Enjoy Coke. Enjoy Plasma95.">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="wallpaper"><div class="scanlines"></div></div>
+
+  <div class="taskbar">
+    <div class="start">Start</div>
+    <div class="task">Plasma95MateCokePikachu.exe</div>
+    <div class="clock" id="clock">95:00</div>
+  </div>
+
+  <section class="win win--header no-branding">
+    <div class="win-title">
+      <img src="assets/win95-logo.png" alt="Win95" />
+      Plasma95MateCokePikachu.exe
+      <div class="win-actions"><span>_</span><span>□</span><span>×</span></div>
+    </div>
+    <div class="win-body header-body">
+      <div class="header-left">
+        <img class="hero-pika" src="assets/pikachu-hero.png" alt="Pikachu" />
+      </div>
+      <div class="header-right">
+        <h1>Plasma95MateCokePikachu</h1>
+        <p class="kicker">Enjoy Coke. Enjoy Plasma95.</p>
+
+        <div class="cta-wrap">
+          <a class="btn btn--plasma" href="#launch">Launch on <span class="ci-badge">PLASMA</span></a>
+          <div class="soon">Contract: <span class="mono">TBA</span></div>
+        </div>
+
+        <div class="brand-row">
+          <img src="assets/club-mate.png" alt="Club-Mate" />
+          <img src="assets/enjoy-coke.png" alt="Enjoy Coke" />
+          <img src="assets/win95-logo.png" alt="Windows95" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="win" id="about">
+    <div class="win-title">ABOUT.txt <div class="win-actions"><span>_</span><span>□</span><span>×</span></div></div>
+    <div class="win-body">
+      <p><strong>Plasma95MateCokePikachu</strong> ist ein Meme-Token, geboren auf der <span class="ci-badge">PLASMA</span>-Chain – ultraschnell, near-feeless, maximal degen.
+      Wir kombinieren das Koffein von <em>Club-Mate</em>, den ikonischen 90s-Glanz von <em>Windows 95</em> und Pikachus ⚡-Energie.
+      <em>„Enjoy Coke“</em> bleibt bewusst doppeldeutig – Memes leben von Layern.</p>
+
+      <p>Warum <span class="ci-badge">PLASMA</span>? Performance: schnelle Bestätigungen, smoother UX, Raum für Kunst, Chaos & Community.
+      Look: <strong>Trashy 90s</strong> – Blue Screens, Clippy-Popups, .exe-Buttons, VHS-Grain, Pixel-Liebe.</p>
+    </div>
+  </section>
+
+  <section class="win" id="memes">
+    <div class="win-title">MEME_WALL.bmp <div class="win-actions"><span>_</span><span>□</span><span>×</span></div></div>
+    <div class="win-body">
+      <div class="meme-grid">
+        <figure class="meme no-branding">
+          <img src="assets/memes/meme1.jpg" alt="BSOD Plasma Contract Not Found" />
+          <figcaption>BSOD: Contract Not Found</figcaption>
+        </figure>
+        <figure class="meme">
+          <img src="assets/memes/meme2.jpg" alt="Desktop Plasma95.exe" />
+          <figcaption>Desktop: Plasma95.exe</figcaption>
+        </figure>
+        <figure class="meme">
+          <img src="assets/memes/meme3.jpg" alt="DOS LaunchCoin.exe" />
+          <figcaption>MS-DOS: LaunchCoin.exe</figcaption>
+        </figure>
+        <figure class="meme">
+          <img src="assets/memes/meme4.jpg" alt="Clippy Deploy on Plasma?" />
+          <figcaption>Clippy: Deploy on Plasma?</figcaption>
+        </figure>
+        <figure class="meme">
+          <img src="assets/memes/meme5.jpg" alt="Battery 420%" />
+          <figcaption>Battery @420%</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="win" id="roadmap">
+    <div class="win-title">ROADMAP.ini <div class="win-actions"><span>_</span><span>□</span><span>×</span></div></div>
+    <div class="win-body roadmap">
+      <div class="card">
+        <h3>Phase 1 – Insert Coin</h3>
+        <p>Win95 Desktop booten, Memes hochfahren, Community sammeln.</p>
+      </div>
+      <div class="card">
+        <h3>Phase 2 – Clippy Detected</h3>
+        <p>„It looks like you’re trying to deploy a coin…“ – Testnet & Gags.</p>
+      </div>
+      <div class="card">
+        <h3 id="launch">Phase 3 – Launch on <span class="ci-badge">PLASMA</span></h3>
+        <p>Contract live, LP befüllt, Meme-Storm, „Enjoy Coke” Season.</p>
+      </div>
+      <div class="card">
+        <h3>Phase 4 – Plasma Overload</h3>
+        <p>GIFs, Edits, Collabs. Pikachu liefert Strom ⚡</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="links">
+      <a href="https://x.com/" target="_blank">X / Twitter</a>
+      <a href="#" target="_blank">Telegram</a>
+      <a href="#" target="_blank">Discord</a>
+    </div>
+    <p class="tag">Enjoy Coke. Enjoy Plasma95.</p>
+    <div class="mini-brand">
+      <img src="assets/logo-plasma-ci.png" alt="Plasma Logo" />
+      <span>Powered by <span class="ci-badge">PLASMA</span></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
